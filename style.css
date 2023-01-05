@@ -26,9 +26,10 @@
 }
 
 .banner-section-bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
-    height: 100vh;
+    background-image: url("https://res.cloudinary.com/ksp24/image/upload/v1672851722/3852a1b18f126ad13c2631e152dfef69.w1281.h640._CR0_0_1281_640_SX1281__qcz2gt.jpg");
+    height: 70vh;
     background-size: cover;
+    margin-top: 60px;
 }
 
 .banner-heading {
@@ -93,8 +94,8 @@
 }
 
 .wcu-card-image {
-    width: 87px;
-    height: 90px;
+    width: 300px;
+    height: 320px;
 }
 
 .wcu-card-title {
@@ -150,22 +151,22 @@
     border-radius: 16px;
 }
 
-.healthy-food-section {
+.samsung-product-section {
     background-color: #f9fbfe;
 }
 
-.healthy-food-section-img {
+.samsung-product-section-img {
     width: 270px;
 }
 
-.healthy-food-section-heading {
+.samsung-product-section-heading {
     color: #183b56;
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
 }
 
-.healthy-food-section-description {
+.samsung-product-section-description {
     color: #5a7184;
     font-family: "Roboto";
     font-size: 16px;
@@ -223,6 +224,15 @@
 .thanking-customers-section-modal-title {
     color: #d0b200;
     font-weight: 800;
+}
+
+.congrats {
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: "Roboto";
+    font-size: 30px;
+    color: green;
+    text-align: center;
 }
 
 .follow-us-section {
